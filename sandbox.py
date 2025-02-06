@@ -34,7 +34,7 @@ df['text'] = cleaned_text
 
 client = OpenAI(
     base_url = api_base,
-    api_key = openai_key
+    api_key = "your api key"
 )
 
 def embedding_generator(client, text):
